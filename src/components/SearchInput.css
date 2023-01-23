@@ -1,0 +1,25 @@
+.Label {
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+
+.Input {
+  width: 90px;
+  padding: 5px;
+  margin: 0 20px 0 0;
+  font-size: 1rem;
+  border: 1px solid silver;
+  border-radius: 5px;
+}
+
+.Button {
+  background-color: grey;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 35px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+}

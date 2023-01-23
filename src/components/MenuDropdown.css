@@ -1,0 +1,39 @@
+/* .Select * {
+  margin: 0;
+  padding: 10px;
+  position: relative;
+  box-sizing: border-box;
+} */
+.Select {
+  width: 240px;
+  position: relative;
+  background-color: navy;
+  color: white;
+  font-size: 1.7rem;
+  border: 5px solid navy;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.SelectToggle {
+  font-size: 1rem;
+  max-width: 100%;
+  background-color: #f2f2f2;
+  color: black;
+}
+.Select select:active,
+.Select select:focus {
+  outline: none;
+  box-shadow: none;
+}
+.Select:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  width: 0;
+  height: 0;
+  margin-top: -2px;
+  border-top: 5px solid #aaa;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
